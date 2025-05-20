@@ -12,13 +12,13 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 
 // Connect to the database
-sqlite.connect()
-    .then(() => {
-        console.log('Connected to the database');
-    })
-    .catch(err => {
-        console.error('Database connection error:', err);
-    });
+// sqlite.connect()
+//     .then(() => {
+//         console.log('Connected to the database');
+//     })
+//     .catch(err => {
+//         console.error('Database connection error:', err);
+//     });
 
 // USSD endpoint
 app.post('/ussd', (req, res) => {
