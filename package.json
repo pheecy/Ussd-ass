@@ -1,0 +1,33 @@
+{
+  "name": "ussd-app",
+  "version": "1.0.0",
+  "description": "A USSD application with multi-language support and session management.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "dev": "nodemon src/app.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "sqlite3": "^5.0.2",
+    "body-parser": "^1.19.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  },
+  "engines": {
+    "node": ">=14.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pheecy/ussd-app.git"
+  },
+  "keywords": [
+    "ussd",
+    "nodejs",
+    "sqlite",
+    "multi-language"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}

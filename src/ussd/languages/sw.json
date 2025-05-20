@@ -1,0 +1,29 @@
+{
+  "welcome": {
+    "message": "Karibu kwenye huduma zetu!",
+    "language_selection": "Tafadhali chagua lugha:",
+    "options": {
+      "english": "1. Kiingereza",
+      "swahili": "2. Kiswahili"
+    }
+  },
+  "main_menu": {
+    "title": "Menyu Kuu",
+    "options": {
+      "option1": "1. Chaguo moja",
+      "option2": "2. Chaguo pili",
+      "back": "0. Rudi nyuma"
+    }
+  },
+  "sub_menu": {
+    "title": "Menyu Ndogo",
+    "options": {
+      "option1": "1. Chaguo A",
+      "option2": "2. Chaguo B",
+      "back": "0. Rudi nyuma"
+    }
+  },
+  "error": {
+    "invalid_input": "Samahani, ingiza chaguo sahihi."
+  }
+}

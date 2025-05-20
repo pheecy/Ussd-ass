@@ -1,0 +1,33 @@
+{
+  "welcome": {
+    "message": "Welcome to our USSD service!",
+    "language_selection": "Please select your language:",
+    "options": {
+      "1": "English",
+      "2": "Swahili"
+    }
+  },
+  "main_menu": {
+    "title": "Main Menu",
+    "options": {
+      "1": "Check Balance",
+      "2": "Transfer Funds",
+      "3": "Purchase Airtime",
+      "0": "Exit"
+    }
+  },
+  "check_balance": {
+    "message": "Your current balance is: {balance}."
+  },
+  "transfer_funds": {
+    "prompt": "Enter the amount to transfer:",
+    "success": "Transfer successful! You have sent {amount}."
+  },
+  "purchase_airtime": {
+    "prompt": "Enter the amount of airtime to purchase:",
+    "success": "Airtime purchase successful! You have purchased {amount}."
+  },
+  "exit": {
+    "message": "Thank you for using our service. Goodbye!"
+  }
+}

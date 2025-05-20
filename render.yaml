@@ -1,0 +1,6 @@
+buildCommand: npm install
+startCommand: node src/app.js
+env:
+  NODE_ENV: production
+  DATABASE_URL: sqlite:./database.db
+  PORT: 3000
